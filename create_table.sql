@@ -1,5 +1,5 @@
 CREATE TABLE flight (
-    flight_id INTEGER PRIMARY KEY,
+        flight_id INTEGER PRIMARY KEY,
 	model_id  INTEGER,
 	mission_id INTEGER,
 	flight_date TIMESTAMP,
@@ -14,7 +14,7 @@ CREATE TABLE flight (
 );
 
 CREATE TABLE gps(
-    flight_id INTEGER,
+        flight_id INTEGER,
 	timee TIME,
 	lat   FLOAT,
 	lon   FLOAT,
@@ -22,12 +22,12 @@ CREATE TABLE gps(
 );
 
 CREATE TABLE ang_vel(
-     flight_id INTEGER,
-     timee     TIMESTAMP,
-	 xyz0      FLOAT,
-	 xyz1      FLOAT,
-	 xyz2      FLOAT,
-	 typee     VARCHAR(50)
+        flight_id INTEGER,
+        timee     TIMESTAMP,
+	xyz0      FLOAT,
+	xyz1      FLOAT,
+	xyz2      FLOAT,
+	typee     VARCHAR(50)
 );
 
 
