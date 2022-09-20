@@ -1,7 +1,11 @@
+--COPY CSV TO DATABASE
+
+
 COPY flight
 FROM 'C:\Users\PC\Desktop\Task (1)\flight.csv' 
 DELIMITER ',' 
 CSV HEADER;
+
 
 SELECT * FROM flight
 
