@@ -1,3 +1,6 @@
+--CREATE FLIGHT TABLE
+
+
 CREATE TABLE flight (
         flight_id INTEGER PRIMARY KEY,
 	model_id  INTEGER,
@@ -13,6 +16,8 @@ CREATE TABLE flight (
 	mission_success  VARCHAR(1)
 );
 
+--CREATE GPS TABLE
+
 CREATE TABLE gps(
         flight_id INTEGER,
 	timee TIME,
@@ -20,6 +25,8 @@ CREATE TABLE gps(
 	lon   FLOAT,
 	alt   FLOAT
 );
+
+--CREATE ANG-VEL TABLE
 
 CREATE TABLE ang_vel(
         flight_id INTEGER,
