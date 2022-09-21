@@ -1,6 +1,5 @@
 # Aday_Mühendislik_Case
 
- For Streamlit connection http://192.168.1.146:8502/
 
 Aday_Mühendislik_Case
 Veriseti Açıklaması
