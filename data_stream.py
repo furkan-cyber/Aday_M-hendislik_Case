@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
@@ -7,6 +8,16 @@ import io
 import scipy
 from scipy.stats.stats import pearsonr
 import psycopg2
+
+print(np.__version__)
+print(pd.__version__)
+print(sns.__version__)
+print(st.__version__)
+print(scipy.__version__)
+print(matplotlib._get_version())
+print(scipy.__version__)
+print(psycopg2.__libpq_version__)
+
 
 
 # Connection parameters, yours will be different
@@ -271,5 +282,3 @@ elif dataset_name =="Ang_Vel":
 
 else :
      st.write("Oh sorry man.Just 3 dataset ın my bag")
-
-
