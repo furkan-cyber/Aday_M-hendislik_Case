@@ -16,7 +16,7 @@ print(st.__version__)
 print(scipy.__version__)
 print(matplotlib._get_version())
 print(scipy.__version__)
-print(psycopg2.__libpq_version__)
+
 
 
 
