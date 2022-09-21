@@ -7,7 +7,7 @@ import streamlit as st
 import io
 import scipy
 from scipy.stats.stats import pearsonr
-import psycopg2
+
 
 print(np.__version__)
 print(pd.__version__)
