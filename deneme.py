@@ -19,9 +19,9 @@ print(scipy.__version__)
 
 
 
-flight=pd.read_csv("C:\\Users\\PC\\Desktop\\Task (1)\\flight.csv")
-ang_vel=pd.read_csv("C:\\Users\\PC\\Desktop\\Task (1)\\angular_velocity.csv")
-gps=pd.read_csv("C:\\Users\\PC\\Desktop\\Task (1)\\gps.csv")
+flight=pd.read_csv("C:/Users/PC/Desktop/Task (1)/flight.csv")
+ang_vel=pd.read_csv("C:/Users/PC/Desktop/Task (1)/angular_velocity.csv")
+gps=pd.read_csv("C:/Users/PC/Desktop/Task (1)/gps.csv")
 ang_vel.columns=["flight_id","timee","xyz0","xyz1","xyz2","type"]
 
 st.title("Titra Candidate Engineer Case")
